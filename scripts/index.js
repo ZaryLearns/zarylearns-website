@@ -29,7 +29,7 @@ function change_page(page) {
 }
 
 function navigate_to_category(page, category) { 
-    _goto('_self', page+'.html')
+    _goto('_self', page)
     sessionStorage.setItem('category', category)
 }
 
