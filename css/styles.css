@@ -208,7 +208,7 @@ header {
 
 .repeated-pattern-background { 
     background-position: 50% 50%;
-    background-image: url('https://zarylearns.github.io/zarylearns-website/assets/images/pattern.png');
+    background-image: url('https://zarylearns.com/assets/images/pattern.png');
 }
 
 #slider { 
@@ -266,9 +266,7 @@ header {
     transform: translateY(-50%);
 }
 
-#slider-image { 
-    /* height: clamp(1em, 12em + 10vw, 31.25em); */
-    /* width: clamp(1em, 20em + 10vw, 56.25em); */
+#slider-image {
     width: clamp(10em, 10em + 40vw, 25em);
     height: clamp(10em, 10em + 40vw, 25em);
     margin: 0 auto;
@@ -456,7 +454,7 @@ header {
 }
 
 .featured-div { 
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('https://zarylearns.github.io/zarylearns-website/assets/images/dim-background-image.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('https://zarylearns.com/assets/images/dim-background-image.png');
     background-position:50% 50%;
     background-repeat: repeat;
     background-attachment: fixed;
@@ -685,7 +683,7 @@ footer .repeated-pattern-background {
 
 .products-landing-background { 
     background-position:50% 50%;
-    background-image: url('https://zarylearns.github.io/zarylearns-website/assets/images/products-banner.png');
+    background-image: url('https://zarylearns.com/assets/images/products-banner.png');
     background-repeat: repeat;
     background-attachment: scroll;
     color: white;
@@ -869,7 +867,7 @@ footer .repeated-pattern-background {
 
 .empty-landing-background { 
     background-position:50% 50%;
-    background-image: url('https://zarylearns.github.io/zarylearns-website/assets/images/banner-empty.png');
+    background-image: url('https://zarylearns.com/assets/images/banner-empty.png');
     background-repeat: repeat;
     background-attachment: scroll;
     color: white;
@@ -982,7 +980,7 @@ footer .repeated-pattern-background {
 
 .about-product-images-div { 
     background-position:50% 50%;
-    background-image: url('https://zarylearns.github.io/zarylearns-website/assets/images/dim-background-image.png');
+    background-image: url('https://zarylearns.com/assets/images/dim-background-image.png');
     background-repeat: repeat;
     background-attachment: scroll;
     color: white;
