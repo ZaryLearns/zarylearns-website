@@ -29,6 +29,7 @@
 
 .landing-image img { 
     display: none;
+    margin-bottom: 1em;
 }
 
 .paragraph { 
