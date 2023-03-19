@@ -25,11 +25,11 @@
     background-image: url('http://zarylearns.com/blog-posts/assets/images/lake.jpg');
     background-repeat: repeat; 
     background-attachment: scroll;
+    margin-bottom: 1em;
 }
 
 .landing-image img { 
     display: none;
-    margin-bottom: 1em;
 }
 
 .paragraph { 
