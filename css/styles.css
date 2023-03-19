@@ -1403,7 +1403,7 @@ footer .repeated-pattern-background {
         grid-row: 4;
     }
 
-    .about-logo { 
+    .about-logo, .founder-image { 
         height: clamp(10em, 10em + 20vw, 25em);
         width: clamp(10em, 10em + 20vw, 25em);
     }
