@@ -21,7 +21,6 @@ function start_slider(description, src, alt='') {
 
     if (initializing) { 
         slider_description_span.innerText = description
-        slider_description_span.style.visibility = 'visible'
         slider_description.classList.add('fade-in')
 
         slider_image.src = src 
@@ -86,7 +85,6 @@ function loop_slideshow() {
 }
 
 function set_slider_height() { 
-    const slider = document.getElementById('slider')
     const slider_columns = document.getElementById('slider-columns')
     const slider_description_span = document.getElementById('slider-description-span')
     const slider_image = document.getElementById('slider-image')

@@ -9,7 +9,7 @@
         <title>ZaryLearns | Blog</title>
     </head>
 
-    <body onload="initialize()">
+    <body>
         <script src="scripts/index.js"></script>
 
         <span id="top" onclick="top_function()"><svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" fill="white"></path></svg></span>
@@ -62,19 +62,47 @@
 
             <div id="content-footer-div">
                 <div id="blog-container">
-                    <div class="empty-landing-background">
-                        <p>BLOG</p>
-                    </div>
-                    <div class="contact-div">
-                        <div class="contacts-info">
-                            <div class="contact-grid-1 contact-email-div">
-                                <div class="products-category-title-div" style="width: fit-content;">
-                                    <h2 class="products-category-title">Coming Soon...</h2>
+                    <div class="banner-search-div">
+                        <div class="empty-landing-background">
+                            <p>BLOG</p>
+                        </div>
+
+                        <!-- <div id="search-container">
+                            <div id="search-icon">
+                                <div id="search-icon-svg-div">
+                                    <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" fill="white"></path> </svg>
                                 </div>
                             </div>
+                            <input type="text" placeholder="Search..." id="search-field">
+                        </div> -->
+                    </div>
+                    <div class="blog-container-content">
+                        <div class="blog-posts-div">
+                            <div class="post-div">
+                                <div class="post">
+                                    <div class="thumbnail">
+                                        <img src="assets/images/resources-renewable-and-nonrenewable.png" alt="blog-post-thumbnail" class="blog-post-thumbnail">
+                                    </div>
+                                    <div class="blog-snippet">
+                                        <h2 class="special-color">Renewable and Nonrenewable Energy</h2>
+                                        <p>Renewable energy is one of the most promising and exciting developments of the 21st century.
+                                            As the world continues to grapple with the consequences of climate change and fossil fuel
+                                            depletion, renewable energy offers a way to power our societies sustainably and with less
+                                            environmental impact. Renewable energy refers to energy that is generated from natural resources that are replenished
+                                            over time, such as solar, wind, hydro, geothermal, and biomass. Unlike fossil fuels, which are
+                                            finite resources, renewable energy sources have the potential to provide unlimited amounts of
+                                            energy, without contributing to greenhouse gas emissions or other negative environmental
+                                            impacts...</p>
+                                        <div class="read-more" onclick="_goto('_self', './blog-posts/resources-renewable-and-nonrenewable.html')">
+                                            <p>Read more</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-hr"></div>
+                            </div>
                         </div>
-                        <div class="contact-grid-2">
-                            <img alt="ZaryLearns logo" src="assets/logo/LOGO.png" class="about-logo">
+                        <div class="founder">
+                            <img src="assets/images/creator-pic.png" alt="founder-image" class="founder-image">
                         </div>
                     </div>
                 </div>
@@ -100,6 +128,9 @@
                                 </div>
                                 <div>
                                     <p class="quick-link" onclick="_goto('_self', 'products')" >Products</p>
+                                </div>
+                                <div>
+                                    <p class="quick-link" onclick="_goto('_self', 'blog.html')">Blog</p>
                                 </div>
                                 <div>
                                     <p class="quick-link" onclick="_goto('_self', 'about')">About</p>
