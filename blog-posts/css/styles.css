@@ -1,0 +1,120 @@
+.blog-heading-div { 
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.blog-heading { 
+    margin: 0 auto;
+    margin-bottom: 0.25em;
+    width: fit-content;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.by { 
+    font-size: 1.25em;
+    color: #574c44;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.landing-image { 
+    min-height: 532px;
+    width: 100%;
+    background-position:50% 50%;
+    background-image: url('http://zarylearns.com/blog-posts/assets/images/lake.jpg');
+    background-repeat: repeat; 
+    background-attachment: scroll;
+    margin-bottom: 1em;
+}
+
+.landing-image img { 
+    display: none;
+}
+
+.article { 
+    padding: 0 2em;
+}
+
+.paragraph { 
+    padding: 2em 0;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.paragraph h2 { 
+    font-size: 2.25em;
+    font-weight: 400;
+    margin-bottom: .5em;
+}
+
+.paragraph p { 
+    font-size: 1.25em;
+    line-height: 1.3;
+}
+
+.article-image-right { 
+    width: clamp(7em, 7em + 45vw, 30em);
+    height: clamp(7em, 7em + 45vw, 25em);
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.snippet { 
+    font-size: 1.5625em;
+    line-height: 170%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;;
+}
+
+.save { 
+    color: #574c44;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.save:hover { 
+    color: #3b332e;
+}
+
+.featured-div { 
+    background-attachment: scroll;
+}
+
+@media (max-width: 833px) { 
+    .landing-image { 
+        background-image: none;
+        background-repeat: inherit;
+        background-attachment: inherit;
+        height: fit-content;
+        min-height: 0;
+    }
+
+    .landing-image img { 
+        display: block;
+    }
+
+    .article-image-right {
+        margin: 0 auto;
+        margin-bottom: 1em;
+        float:none;
+        height: clamp(7em, 7em + 40vw, 25em);
+        width: 100%;
+    }
+
+    .paragraph { 
+        max-width: none;
+    }
+
+    .stack { 
+        display: grid;
+    }
+
+    .stack h2 { 
+        grid-row: 2;
+        margin-top: .5em;
+    }
+}
