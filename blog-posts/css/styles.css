@@ -32,8 +32,12 @@
     display: none;
 }
 
+.article { 
+    padding: 0 2em;
+}
+
 .paragraph { 
-    padding: 2em 1em;
+    padding: 2em 0;
     max-width: 80%;
     margin: 0 auto;
 }
@@ -97,5 +101,21 @@
         margin: 0 auto;
         margin-bottom: 1em;
         float:none;
+        /* width: clamp(7em, 7em + 55vw, 30em); */
+        height: clamp(7em, 7em + 40vw, 25em);
+        width: 100%;
+    }
+
+    .paragraph { 
+        max-width: none;
+    }
+
+    .stack { 
+        display: grid;
+    }
+
+    .stack h2 { 
+        grid-row: 2;
+        margin-top: .5em;
     }
 }
