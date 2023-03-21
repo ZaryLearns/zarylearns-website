@@ -101,7 +101,6 @@
         margin: 0 auto;
         margin-bottom: 1em;
         float:none;
-        /* width: clamp(7em, 7em + 55vw, 30em); */
         height: clamp(7em, 7em + 40vw, 25em);
         width: 100%;
     }
