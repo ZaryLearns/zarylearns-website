@@ -804,13 +804,15 @@ footer .repeated-pattern-background {
 .socials-svg-div { 
     display: grid;
     grid-template-columns: auto auto auto auto;
-    column-gap: 1em;
-    width: fit-content;
+    column-gap: 1em; 
 }
 
-.social-svg { 
-    height: 3em;
-    width: 3em;
+.socials-svg-div div { 
+    display: flex;
+    flex-direction: column;
+}
+
+.social-svg {
     cursor: pointer;
     transition: all .2s ease-in-out;
     margin: auto 0;
@@ -819,6 +821,7 @@ footer .repeated-pattern-background {
 .social-svg:hover { 
     transform: scale(1.1);
 }
+
 .copyright { 
     text-align: center;
     padding-bottom: 1em;
