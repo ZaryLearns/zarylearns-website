@@ -819,10 +819,6 @@ footer .repeated-pattern-background {
 .social-svg:hover { 
     transform: scale(1.1);
 }
-
-.svg-path { 
-    margin: 0 auto;
-}
 .copyright { 
     text-align: center;
     padding-bottom: 1em;
