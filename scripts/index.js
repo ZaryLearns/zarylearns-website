@@ -56,7 +56,7 @@ function menu(go_to_page) {
 }
 
 function _goto(open_in='', link, element='') { 
-    console.log(link)
+    rel = open_in == '_blank' ? 'noopener' : ''
     window.open(link, open_in)
 
     if(element.classList == 'shop-now-button') {  
