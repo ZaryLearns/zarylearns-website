@@ -57,7 +57,7 @@ function menu(go_to_page) {
 
 function _goto(open_in='', link, element='') { 
     rel = open_in == '_blank' ? 'noopener' : ''
-    window.open(link, open_in)
+    window.open(link, open_in, rel)
 
     if(element.classList == 'shop-now-button') {  
         setTimeout(() => { element.style.backgroundColor = 'rgba(180,35,35,255)' }, 50)
